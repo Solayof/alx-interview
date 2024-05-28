@@ -3,6 +3,8 @@
 
 
 def pascal_triangle(n):
+    """function that return list of n levels of pascal triangle
+    """
     if n <= 0:
         return []
 
